@@ -22,6 +22,8 @@ Serve:
 
 - php artisan make:model ModelName -mcr 
 
+- php artisan make:component ComponentName
+
 Functions:
 
 Asset path redirect to public [ asset('your/path/to/file') ]

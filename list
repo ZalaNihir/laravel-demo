@@ -1,0 +1,13 @@
+
+  GET|HEAD        / .................................................................................................... 
+  GET|HEAD        category ................................................... category.index › CategoryController@index
+  POST            category ................................................... category.store › CategoryController@store
+  GET|HEAD        category/create .......................................... category.create › CategoryController@create
+  GET|HEAD        category/{category} .......................................... category.show › CategoryController@show
+  PUT|PATCH       category/{category} ...................................... category.update › CategoryController@update
+  DELETE          category/{category} .................................... category.destroy › CategoryController@destroy
+  GET|HEAD        category/{category}/edit ..................................... category.edit › CategoryController@edit
+  GET|HEAD        up ................................................................................................... 
+
+                                                                                                      Showing [9] routes
+
